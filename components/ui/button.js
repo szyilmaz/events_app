@@ -9,7 +9,7 @@ const Button = (props) => {
             </Link>
         )
     }
-    return <button onClick={props.onClick}>{props.children}</button>
+    return <button className={classes.btn} onClick={props.onClick}>{props.children}</button>
    
 }
 
